@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlanetRotation : MonoBehaviour
 {
-    private Transform transform;
+    //new Transform transform;
     public int speed;
 
     // Start is called before the first frame update
     void Start()
     {
-        transform = GetComponent<Transform>();
+        //transform = GetComponent<Transform>();
     }
 
     // Update is called once per frame
