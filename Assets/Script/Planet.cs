@@ -7,6 +7,7 @@ public class Planet : MonoBehaviour
 {
     public int speed;
     public float orbitSpeed;
+    public float mass;
 
     private GameObject _nearestStar;
 
