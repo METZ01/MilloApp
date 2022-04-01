@@ -19,7 +19,7 @@ public class Moon : MonoBehaviour
     
     void Start(){
         _nearestStar = Utils.FindNearestByTag("Planet", gameObject);
-        planet.nearestPlanet = _nearestStar;
+        //planet.nearestPlanet = _nearestStar;
 
     }
 
